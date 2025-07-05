@@ -1,0 +1,167 @@
+.tasks-page {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* Barra lateral */
+.sidebar {
+    background: #ffe9f2;
+    border: 1px solid #f8a4c4;
+    border-radius: 12px;
+    padding: 1.5rem;
+    width: 20%;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #333;
+    height: fit-content;
+}
+
+.sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    color: #e75480;
+}
+
+.sidebar p {
+    margin: 0.5rem 0;
+}
+
+/* Contenedor de tareas */
+.tasks-container {
+    flex: 1;
+    padding: 0 2rem;
+}
+
+/* Header con título, frase y botón */
+.tasks-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    padding: 0 5rem;
+}
+
+.tasks-title {
+    font-size: 2.2rem;
+    color: #f178b6;
+    margin-bottom: 0.3rem;
+}
+
+.tasks-subtitle {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.new-task-button {
+    background-color: #f4a8c2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 0.5rem;
+}
+
+.new-task-button:hover {
+    background-color: #333;
+    color: #f4a8c2;
+}
+
+/* Lista de tarjetas */
+.tasks-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* Cada tarjeta de tarea */
+.task-card {
+    background-color: #fff;
+    border: 2px solid #f4a8c2;
+    border-radius: 14px;
+    padding: 1rem;
+    width: 80%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+/* Título de tarea */
+.task-title {
+    font-size: 1.6rem;
+    color: #f178b6;
+    margin-bottom: 0.5rem;
+    align-self: center;
+}
+
+.task-description-field {
+    background-color: #fde4ef;
+    border: 1px solid #f8a4c4;
+    border-radius: 10px;
+    padding: 15px 20px;
+    width: 95%;
+    box-sizing: border-box;
+    margin: 15px 0;
+    margin-bottom: 30px;
+}
+
+.task-description {
+    margin: 0;
+    text-align: left;
+    word-wrap: break-word;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Botones */
+.task-buttons {
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.edit-task-button,
+.delete-task-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.edit-task-button {
+    background-color: #f4a8c2;
+    color: #fff;
+}
+
+.edit-task-button:hover {
+    background-color: #333;
+    color: #f4a8c2;
+}
+
+.delete-task-button {
+    background-color: #333;
+    color: #fff;
+}
+
+.delete-task-button:hover {
+    background-color: #f4a8c2;
+    color: #333;
+}

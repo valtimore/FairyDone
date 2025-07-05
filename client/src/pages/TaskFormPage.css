@@ -1,0 +1,71 @@
+/* TaskFormPage.css */
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #fdf6f9; /* rosa clarito pastel */
+}
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #fff;
+    border: 2px solid #f4a8c2; /* borde rosado */
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(244, 168, 194, 0.4);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-title {
+    font-size: 1.8rem;
+    color: #f4a8c2;
+    text-align: center;
+    margin-bottom: 0.25rem;
+}
+
+.form-subtitle {
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+.input-field,
+.textarea-field {
+    border: 1px solid #f4a8c2;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    color: #333;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.input-field:focus,
+.textarea-field:focus {
+    outline: none;
+    border-color: #333;
+    background-color: #fef0f6; /* rosa más suave al focus */
+}
+
+.submit-button {
+    background-color: #f4a8c2; /* rosa */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #333; /* negro al hover */
+    color: #f4a8c2; /* el texto rosa */
+}

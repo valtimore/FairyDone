@@ -1,0 +1,73 @@
+/* HomePage.css */
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 5rem;
+}
+
+.home-left {
+}
+
+.home-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-gif {
+    width: 100%; 
+    max-width: 450px;
+}
+
+
+.home-card {
+    background: #fff;
+    border: 2px solid #f4a8c2;
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    max-width: 500px;
+    box-shadow: 0 8px 24px rgba(244, 168, 194, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.home-card:hover {
+    transform: translateY(-5px);
+}
+
+.home-image {
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+.home-title {
+    font-size: 2rem;
+    color: #f4a8c2;
+    margin-bottom: 0.5rem;
+}
+
+.home-subtitle {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.login-button {
+    margin-top: 1.5rem;
+    background-color: #f4a8c2; /* rosa tierno */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #333;
+    color: #f4a8c2; 
+}
+
